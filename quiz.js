@@ -6,10 +6,10 @@ function checkAnswer (){
     const correctAnswer  = "4";
 if (userAnswer) {
     if (userAnswer === correctAnswer){
-        feedback.innerText = "Correct!" 
+        feedback.innerText = "Correct! Well done."; 
     }
     else {
-        feedback.innerText = "Incorrect, try again.";
+        feedback.innerText = "That's incorrect. Try again!.";
     }
 }
 }
